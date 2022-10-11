@@ -18,8 +18,7 @@ parameters:
    expression   RE2-style regex. Matched values will be used as the prefix
    filename     Optional filename or glob. If not provided, stdin will be read
 
-The expression is only searched in the first 65535 characters of a line
-`
+The expression is only searched in the first 65535 characters of a line`
 
 func main() {
 	args := os.Args[1:]
